@@ -1,0 +1,54 @@
+<!--Gestión de vendedores-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Aplication WEB</title>
+  <meta charset="UTF-8">
+  <meta name="title" content="Gestión de vendedores">
+  <meta name="description"  content="Permite ingresar la información básica de los vendedores que participan en un negocio de ventas">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="cuerpo">
+
+  <body>
+
+    <div class = "menu">
+      <nav >
+      <ul>
+        <li>
+          <a href = "#"  class = "nav-menu">inicio</a>
+        </li>
+      </ul>
+      </nav>
+    </div>
+    <div>
+    <h1 class="title">Gestión de vendedores</h1>
+    </div>
+    <div class = "Box">
+      <form action="#" method="POST" >
+        <label>Identificación:</label>
+        <input type="number" id="Documento" name="Documento" required> </label><br>
+        <label>Nombres: <input type="text" id="name" name="name" required></label><br>
+        <label>Apellidos: <input type="text" id="surname" name="surname" required></label><br>
+        <label>E-mail: <input type="email" id="email" name="email"></label><br>
+        <label>Número Celular: <input type="number" id="celphone" name="celphone" required></label><br>
+        <label>Fecha de Ingreso: <input type="date" id="date_in" name="date_in" required></label><br>
+        <label>Especialidad:</label>
+        <select id="cmbFuncion" name="especialidad" required>
+          <option value="1">a</option>
+          <option value="2">b</option>
+          <option value="3">c</option>
+        </select><br>
+
+        <button type="submit" title="Enviar" href = "ingresar_venta.html">Registrar</button>
+        <button type="reset" title="Borrar">Borrar información</button>
+      </form>
+    </div>
+  </body>
+  <footer class="pie">
+    <p class="piep">Esta aplicación es un desarrollo en conjunto para MinTic UdeA</p>
+  </footer>
+</body>
+
+</html>
